@@ -14,9 +14,8 @@ class QuizBrain:
         current_question = self.question_list[self.question_number]
         self.question_number += 1
         user_answer = input(
-            f"Q.{self.question_number}: {current_question.text}" 
+            f"Q.{self.question_number}: {current_question.text}"
             f"(True/False): \n").lower()
-        
         while user_answer not in ("true", "false"):
             print("\n")
             print('Please enter valid answer(True or False)')
@@ -25,7 +24,6 @@ class QuizBrain:
             user_answer = input(
                 f"Q.{self.question_number}: {current_question.text}"
                 f"(True/False): ").lower()
-            
         self.check_answer(user_answer, current_question.answer)
 
     def check_answer(self, user_answer, correct_answer):

@@ -31,13 +31,13 @@ question_data = [
                  " partnered together"
                  " to archive every tweet by American citizens.",
      "correct_answer": "True", "incorrect_answers": ["False"]},
-    {"category": "General Knowledge", "type": "boolean",  
+    {"category": "General Knowledge", "type": "boolean",
      "difficulty": "easy", "question": "Pluto is a planet.",
      "correct_answer": "False", "incorrect_answers": ["True"]},
-    {"category": "General Knowledge", "type": "boolean", 
+    {"category": "General Knowledge", "type": "boolean",
      "difficulty": "easy",
-     "question": "Adolf Hitler was born in Australia. ", 
+     "question": "Adolf Hitler was born in Australia. ",
      "correct_answer": "False", "incorrect_answers": ["True"]},
     {"category": "General Knowledge", "type": "boolean", "difficulty": "easy",
-     "question": "Ping-Pong originated in England", 
+     "question": "Ping-Pong originated in England",
      "correct_answer": "True", "incorrect_answers": ["False"]}]

@@ -1,31 +1,54 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Quiz Game
 
-Welcome mzxz,
+Quiz game is a termminal game on Heroku and it is simple true or false game built in Python using the concepts of Object-Oriented Programming.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+## All the images for a teating and response desgin in Quiz Game repo docs folder
+![Responsice Mockup]()
 
-## Reminders
+## How to play
+1- The Game will be start by asking questions to the player,the player has to reply with either true or false.
+2- Each correct answer will score a point.
+3- The current score gets updated everytime a question is answered.
+4- After the player answer all the question the game end ask optional question if you want to play again or end the game.
+5- The total points scored by the player are displayed at the end.
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+## Features 
 
-## Creating the Heroku app
+- accept input
+- validate input
+   You will receive errors if your input(was not correct).
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+## Fueure Features 
+- Using the concepts of Object-Oriented Programming.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+## Data model
+- I have used a models classes to create the game
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+## Testing
+I have test the program manually:
+- Passed code through PEP 8 and passed
+- in the terminal and code institute Heroku terminal
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
 
-Connect your GitHub repository and deploy as normal.
+## Bugs-
 
-## Constraints
+No bugs found
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+---------------------------------------------------------------------------------------------------------------------
+## Validator Testing
+the code passed PEP8 testing
 
------
-Happy coding!
+## -Deployment-
+- heroko
+- sitting - configvar
+- Buildpacks - add python then nodejs - save changes
+- go to deploy - deplyement method - github - connect - choose repo name - connect
+- choose branch - main -- deploy branch
+-view
+
+---------------------------------------------------------------------------------------------------------------------
+
+## Credits 
+- Code institute battelshipe scope and readme.md
+- https://opentdb.com/ for the questions resources
+- 12 Beginner Python Projects - Coding Course https://www.youtube.com/watch?v=8ext9G7xspg 
