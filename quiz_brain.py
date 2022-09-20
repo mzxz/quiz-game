@@ -19,4 +19,11 @@ class QuizBrain:
         self.check_answer(user_answer, current_question.answer)
 
     def check_answer(self, user_answer, correct_answer):
-        pass
+        if user_answer.lower() == correct_answer.lower():
+            self.score += 1
+            print("You got it right!")
+        else:
+            print("Wrong answer.")
+        print(f"That's right: {correct_answer}.")
+        print(f"Your curret score is: {self.score}/{self.question_number}")
+        print("\n")
