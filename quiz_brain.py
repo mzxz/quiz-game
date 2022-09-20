@@ -24,6 +24,6 @@ class QuizBrain:
             print("You got it right!")
         else:
             print("Wrong answer.")
-        print(f"That's right: {correct_answer}.")
+        print(f"The correct answer was: {correct_answer}.")
         print(f"Your curret score is: {self.score}/{self.question_number}")
         print("\n")
