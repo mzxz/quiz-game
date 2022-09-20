@@ -2,9 +2,11 @@
 
 Quiz game is a termminal game on Heroku and it is simple true or false game built in Python using the concepts of Object-Oriented Programming.
 
-## All the images for a teating and response desgin in Quiz Game repo docs folder
-![Responsice Mockup]()
-
+## All the images for a teating and response desgin in Quiz Game.
+![Responsice Mockup](https://github.com/mzxz/quiz-game/blob/main/docs/1.PNG)
+![Responsice Mockup](https://github.com/mzxz/quiz-game/blob/main/docs/2.PNG)
+![Responsice Mockup](https://github.com/mzxz/quiz-game/blob/main/docs/3.PNG)
+![Responsice Mockup](https://github.com/mzxz/quiz-game/blob/main/docs/4.PNG)
 ## How to play
 1- The Game will be start by asking questions to the player,the player has to reply with either true or false.
 2- Each correct answer will score a point.
@@ -28,7 +30,7 @@ Quiz game is a termminal game on Heroku and it is simple true or false game buil
 I have test the program manually:
 - Passed code through PEP 8 and passed
 - in the terminal and code institute Heroku terminal
-
+![Responsice Mockup](https://github.com/mzxz/quiz-game/blob/main/docs/test.PNG)
 
 ## Bugs-
 
