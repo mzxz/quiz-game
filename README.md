@@ -54,3 +54,4 @@ the code passed PEP8 testing
 - Code institute battelshipe scope and readme.md
 - https://opentdb.com/ for the questions resources
 - 12 Beginner Python Projects - Coding Course https://www.youtube.com/watch?v=8ext9G7xspg 
+- Udemy course by Angela Yu
