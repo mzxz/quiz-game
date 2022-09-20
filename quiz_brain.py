@@ -16,6 +16,14 @@ class QuizBrain:
         user_answer = input(
             f"Q.{self.question_number}: {current_question.text} (True/False): "
         ).lower()
+        while user_answer not in ("true", "false"):
+            print("\n")
+            print('Please enter valid answer(True or False)')
+            print("\n")
+            print("Now try again!")
+            user_answer = input(
+                f"Q.{self.question_number}: {current_question.text} (True/False): "
+            ).lower()
         self.check_answer(user_answer, current_question.answer)
 
     def check_answer(self, user_answer, correct_answer):
