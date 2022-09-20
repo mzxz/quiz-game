@@ -24,7 +24,7 @@ def play():
         print(f"Your final score was: {quiz.score}/{quiz.question_number}")
         print("\n")
         again = input("Do you want to play again(type y or,"
-                      " press any letter to exit): "
+                      " press any letter or number to exit): \n"
                       ).lower()
         while again == "y":
             print("\n")
